@@ -198,10 +198,22 @@ elif page == "Predict Your HDB Price":
     
     # Input fields
     postal_code = st.text_input(t['predict3'])
+    
+    # Check if postal code is valid
+    geospatial_data = pd.read_csv("hdb_geospatial.csv")
+    if postal_code and postal_code not in geospatial_data["postal_code"].values:
+        st.warning(t["predictwarning1"])
+
     flat_type = st.selectbox(t['predict4'], 
     ['1 Room', '2 Room', '3 Room', '4 Room', '5 Room', 'Executive', 'Multi-Generation'])
     floor_number = st.number_input(t['predict5'], min_value=1)
+    
     lease_left = st.number_input(t['predict6'], min_value = 0, value = 80)
+
+    # Check if remaining lease is valid
+    if lease_left and lease_left > 99:
+        st.warning(t["predictwarning2"])
+
     model = joblib.load('model_random_forest.pkl')
 
     
