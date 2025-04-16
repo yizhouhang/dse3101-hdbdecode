@@ -10,7 +10,8 @@ def hdb_price_trend(t):
 
     # Load Data
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    data_path = os.path.join(BASE_DIR, "resale_price_cleaned.csv")
+    data_path = os.path.join(BASE_DIR, "..", "data", "resale_price_cleaned.csv")
+    data_path = os.path.abspath(data_path)
 
     df = pd.read_csv(data_path)
     df = df.dropna(subset=['resale_price', 'month'])

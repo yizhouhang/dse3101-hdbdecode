@@ -12,7 +12,7 @@ def ideal_home(t):
     with tab1:
         @st.cache_data
         def load_data():
-            return pd.read_csv("find_your_ideal_home.csv")
+            return pd.read_csv("../data/find_your_ideal_home_v4.csv")
 
         df = load_data()
         df["postal_code"] = df["postal_code"].astype(str).str.zfill(6)
@@ -163,7 +163,7 @@ def ideal_home(t):
     with tab2:
         st.title(t["ideal1"])
 
-        geospatial_data = pd.read_csv("hdb_geospatial.csv")
+        geospatial_data = pd.read_csv("../data/hdb_geospatial.csv")
 
         if "postal_codes" not in st.session_state:
             st.session_state.postal_codes = []
@@ -214,7 +214,7 @@ def ideal_home(t):
                     f"Nearest Bus Stop: {row['nearest_bus_name']} ({int(row['nearest_bus_distance'])}m)"
                 )
                 custom_icon = CustomIcon(
-                    icon_image="location.png",  
+                    icon_image="../image/location.png",  
                     icon_size=(45, 45),  
                 )   
                 folium.Marker(

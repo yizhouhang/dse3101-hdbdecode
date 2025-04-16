@@ -16,6 +16,7 @@ from folium.features import CustomIcon
 from translations import get_translations
 from homepage import homepage
 from hdb_price_trend import hdb_price_trend
+from model_predict_price import predict_price_all
 import joblib
 from ideal_home import ideal_home 
 
@@ -70,7 +71,7 @@ translations = get_translations()
 t = translations[language]
 
 
-logo_path = "photo.jpeg"  
+logo_path = "../image/photo.jpeg"  
 
 def get_image_base64(image_path):
     with open(image_path, "rb") as img_file:
@@ -192,56 +193,8 @@ elif page == "HDB Price Trend":
 
 # Predict Your HDB Price
 elif page == "Predict Your HDB Price":
-    st.title(t['predict1'])
+    predict_price_all(t)
     
-    st.warning(t['predict2'])
-    
-    valid_input = True
-
-    # Input fields
-    postal_code = st.text_input(t['predict3'])
-    
-    # Check if postal code is valid
-    geospatial_data = pd.read_csv("hdb_geospatial.csv")
-    if postal_code and postal_code not in geospatial_data["postal_code"].values:
-        st.warning(t["predictwarning1"])
-        valid_input = False
-
-    flat_type = st.selectbox(t['predict4'], 
-    ['1 Room', '2 Room', '3 Room', '4 Room', '5 Room', 'Executive', 'Multi-Generation'])
-    floor_number = st.number_input(t['predict5'], min_value=1)
-    
-    lease_left = st.number_input(t['predict6'], min_value = 0, value = 80)
-
-    # Check if remaining lease is valid
-    if lease_left and lease_left > 99:
-        st.warning(t["predictwarning2"])
-        valid_input = False
-
-    model = joblib.load('model_random_forest.pkl')
-
-    predict_button = st.button(t['predict7'], disabled = not valid_input)
-
-    if predict_button:
-        try:
-            predicted_price = price_predict(
-                storey_range=floor_number,
-                flat_type=flat_type,
-                remaining_lease=lease_left,
-                postal_code=int(postal_code),
-                model=model 
-            )
-            st.write(f"### Predicted Price: ${predicted_price:,.2f}")
-        except Exception as e:
-            st.warning(t['predict8'])
-
-    
-    st.markdown("---")
-    st.markdown(t["contact"])
-
-    
- 
-
 elif page == "Find Your Ideal Home":
     ideal_home(t)
 

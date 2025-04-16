@@ -34,9 +34,11 @@ def homepage(t):
 
     with right_col:
         st.markdown("<div style='height:80px;'></div>", unsafe_allow_html=True)
-        st.image("hdb5.jpeg", use_container_width=True)
+        st.image("../image/hdb5.jpeg", use_container_width=True)
 
 
-    
+    st.subheader(t["homgepage11"])
+    st.video("https://www.youtube.com/watch?v=wcmuvZuAzoc")
+    st.video("https://www.youtube.com/watch?v=pBSm2NfJKlg")
     st.markdown("---")
     st.markdown(t["contact"])
