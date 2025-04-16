@@ -1,0 +1,162 @@
+THEMENAME,QUERYNAME,CATEGORY
+After Death Facilities,afterdeathfacilities,Environment
+Kindergartens,kindergartens,Education
+Community Clubs,communityclubs,Community
+Private Education Institutions,cpe_pei_premises,Education
+Constituency Offices,constituencyoffices,Community
+IPPT In Your Community,hsgb_ippt,National Service
+Licensed Premises for Liquors & Tabacco Products,customs_tabacco_product,null
+Infocomm Accessibility,infocommaccess,Community
+Libraries,libraries,Culture
+Other PA Networks,otherpanetworks,Community
+Museums,museum,Culture
+PCN Access Points,pcn_access_points,Recreation
+SportSG Sport Facilities,ssc_sports_facilities,Sports
+Waste Disposal Site,wastedisposalsite,Environment
+Water Ventures,waterventure,Community
+LTA Bicycle Rack,bicyclerack,Recreation
+Heritage Road Green Buffers,heritageroadgreenbuffer,null
+SportSG Sport Facilities,sportsg_sport_facilities,Sports
+NParks BBQ Pits,nparks_bbq_pit,null
+TradeNet Service Centres & Certified Vendors,customs_tradenet_service,null
+Singapore Police Force Red Light Cameras,spf_rlc,Community
+Tree Conservation Area,tree_conservation_area,null
+HDB Car Park Information,hdb_car_park_information,Community
+PUB Water Level Sensors,pub_waterlevelsensors,Environment
+Singapore Police Force - 32nd ASEAN Summit Shangri-La Hotel Special Zone,as_shangrila_core,Community
+Electoral Boundary 2006,ed_bdy_2009,null
+Electoral Boundary 2015,eld2015,null
+Electoral Boundary 2011,tb_msis_gaz_ed,null
+Singapore Police Force - 32nd ASEAN Summit Istana Special Zone,as_istana_core,Community
+Singapore Police Force - 32nd ASEAN Summit Istana Special Event Area,as_istana_buffer,Community
+Singapore Police Force - 32nd ASEAN Summit Shangri-La Hotel Special Event Area,as_shangrila_buffer,Community
+Singapore Coastal Habitats Map from High Resolution Satellite Imagery (2010/2011),singapore_cmhabitats_20102011,null
+CAAS Zones for Solar PV Consultation,solarpv_zones,Community
+Areas with High Aedes Population,areas_hap,Environment
+Road Speed Limit,roadattributeline_speedlimits,null
+LTA Road Construction Project (Unclassified),lta_rdproj_unclass,null
+Strengthening Families Programme,strengtheningfam,Community
+Community Club / PAssion WaVe Outlet,communityclubpassionwave,Community
+Singapore Police Force - PCG Offshore Islands,pcg_offshore_islands,Government Offices
+Singapore Police Force - National Day Parade (NDP) 2022 Special Event Area,ndp_22_sea,Community
+Singapore Police Force - National Day Parade (NDP) 2022 Special Zone,ndp_22_sz,Community
+Licensed Premises for Motor Vehicles,customs_motor_vehicle,null
+JTC Business Park Land,jtc_luse_bp_bpw,null
+Civil Defence Public Shelters,civildefencepublicshelters,Emergency Preparedness
+Hotels,hotels,Recreation
+Healthier Caterers,healthiercaterers,Health
+SportSG DUS Sport Facilities,sportsg_dus_sport_facilities,Sports
+SportSG SIP Facilities,sportsg_sip_facilities,Sports
+Community Use Sites,comm_use_sites,Recreation
+HDB Existing Building,hdb_active_blk_p,null
+PA Headquarters,paheadquarters,Government Offices
+Licensed premises for petroleum products,customs_petroleum_product,null
+Heritage Trees,heritagetrees,Environment
+Singapore Police Force - National Day Parade (NDP) 2024 Special Zone,ndp_24_sz,null
+Theatre,theatre,Culture
+URA Parking Lot,ura_parking_lot,Environment
+Residents' Committee / Residents' Network Centre,residentscommittee,Community
+Areas within Restricted Areas,restricted_areaspoly,Community
+"Prohibited Drone flying areas at NParks Nature Reserves, Nature Parks and Gardens",drone_no_fly,Recreation
+SCDF HQs and Training Establishments,scdfhq,Emergency Preparedness
+Singapore Police Force Digital Traffic Red Light Cameras,spf_dtrls,Community
+Singapore Police Force Establishments,spf_establishments,Government Offices
+Singapore Police Force Fixed Speed Cameras,spf_fsc,Community
+Singapore Police Force Police Speed Laser Cameras,spf_pslc,Community
+Tourist Attractions,tourism,Recreation
+CareersConnect,wdaservicepoints,Employment
+Community in Bloom (CIB),cib_gardens,Recreation
+Cycling Path Network,cyclingpath,Recreation
+Areas within Danger Areas,danger_areas,Community
+Park Connector Loop,park_connector_loop,Recreation
+Areas within 5km of aerodromes,boundary_5km,Community
+Community Mediation,commmediationctr,null
+HDB Roads Under Construction,hdbroadsunderconstruction,null
+Retail pharmacy locations,registered_pharmacy,Health
+Social Service Agencies,voluntarywelfareorgs,Family
+CPF Service Centres,cpfb_location,Government Offices
+Crematoria,crematoria,Environment
+Bloodbank locations,blood_bank,Health
+Inland Ash Scattering Gardens,ias,Environment
+MCE KPE Speed Camera,mce_kpe_speed_camera,Community
+Active Cemeteries,activecemeteries,Environment
+ABC Waters Construction,abcwatersconstruction,Environment
+Child Care Services,childcare,Family
+SAFRA Centres,hsgb_safra,National Service
+LTA Parking Standards Zone,parkingstandardszone,Community
+Dedicated Columbaria,columbaria,Environment
+Fitness and Conditioning Centres (FCC),hsgb_fcc,National Service
+Liquor Control Zone(s) proclaimed under Liquor Control (Supply and Consumption) Act 2015,liquor_control_zones,Community
+Locations of Remittance,remittance,Community
+NParks Buildings,nparks_building,null
+NParks Parks and Nature Reserves,nparks_parks,Environment
+"Channels for Donation, Resale and Repair",reusechannels,Environment
+URA Project (PUBLIC),ura_project_public_pl,null
+LTA Road Camera,lta_road_enforcement_camera,Community
+NAPFA Test Centre,hsgb_napfa,National Service
+Quit Centres,quitcentres,Health
+Under-Construction Parks,nparks_uc_parks,null
+WaterSupplyConstruction,watersupplyconstruction,null
+HDB Cycling Paths Under-Construction,hdbcyclingunderconstruction,null
+SewerageConstruction,sewerageconstruction,null
+Under-Construction Park Connectors,nparks_uc_pc,null
+Under-Construction Park Facilities,underconstruction_facilities,null
+Singapore Police Force Mobile Speed Cameras,spf_msc,Community
+Certificate Grading Info of Licensed Eating Establishments,track_record_ils_feb18,Environment
+Student Care Services,studentcare,Family
+Singapore Police Force - National Day Parade (NDP) 2024 Special Event Area,ndp_24_sea,null
+Green Mark Buildings,greenbuilding,Environment
+Historic Sites,historicsites,Culture
+Dengue Clusters,dengue_cluster,Health
+E-waste Recycling,ewaste,Environment
+Fire Stations,firestation,Emergency Preparedness
+Licensed Premises for Zero GST Goods,customs_zero_gst_goods,null
+LTA Rail Project Under Construction (Unclassified),ltarailprj_uc_unclass,null
+NParks Car Park Lots,nparks_carpark_lots,null
+Dementia Friendly Go-To-Points (GTPs),dfc_gtp,Health
+Hawker Centres,ssot_hawkercentres,Environment
+Liquor Control Zone under Public Order (Additional Temporary Measures) Act 2014,liquor_control_zone,null
+Areas within Prohibited Areas,prohibited_areas,Community
+Designated Smoking Areas,dsa,Environment
+Maxwell Chambers F&B map,maxwell_fnb_map,null
+Singapore Police Force Establishments (2018),spf_establishments_2018,Government Offices
+Cervical Screening Centre,cervicalscreen,Health
+CET Centres,cetcentres,Education
+Breast Screening Centre,breastscreen,Health
+Singapore Police Force - National Day Parade (NDP) 2023 Special Event Area,ndp_23_sea,Community
+Singapore Police Force - National Day Parade (NDP) 2023 Special Zone,ndp_23_sz,Community
+Wolbachia Release Sites,wolbachia_release_sites,Environment
+Social Service Offices,sso,Community
+Silver Infocomm,silverinfocomm,Community
+Wireless HotSpots,wireless_hotspots,Recreation
+Community Devt Councils,cdcouncils,Community
+JTC Estate Name Boundary,jtc_estate_name,null
+JTC Temporary Occupation License,jtc_tol,null
+Public Access AEDs,aed_locations,Emergency Preparedness
+HDB Neighbourhood Renewal Programme Proposed and Under-Construction (NRP),hdbnrpunderconstruction,null
+HDB Public Housing Building Under-Construction,hdbbuildingunderconstruction,null
+Drainage Construction,drainageconstruction,null
+Estate Upgrading Programme (EUP) Works for OSP,bca_estate_upg_prog_osp,null
+HDB Lift Upgrading Programme Proposed and Under-Construction (LUP),hdbluppropunderconstruction,null
+Cleaning Sectors,cleansing_outsourced,Environment
+Disability Services,disability,Family
+NEA Offices,neaoffices,Government Offices
+ABC Waters Completed,abcwaterscompleted,Environment
+Bomb shelters,bombshelters,null
+Singapore Police Force NPC Boundary,npc_boundary,Government Offices
+Monuments,monuments,Culture
+Parks,nationalparks,Recreation
+Nature Reserves Gazette 2005,nr_gaz_2005,Recreation
+Protected Area under Section 7 Air Navigation Act,mha_uav_2015,Community
+Friendly Buildings,bfabuildings,Community
+No Smoking Zones,nsz,Environment
+MOH JTVC,testingops,Health
+Locations of Money Changer,moneychanger,Community
+Funeral Parlours,funeralparlours,Environment
+Eldercare Services,eldercare,Family
+HDB Branches,hdb_branches,Government Offices
+Healthier Eateries,healthierdining,Health
+Family Services,family,Family
+Vaccination_ JTVC,votg_jtvcs,Health
+Vaccination_PHPC,votg_phpc,Health
+Vaccination_Polyclinics,vaccination_polyclinics,Health
