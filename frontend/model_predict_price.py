@@ -28,14 +28,31 @@ def normalize_column(value, col):
         return 0
     return (value - min_val) / (max_val - min_val)
 
-# External token
-ONEMAP_TOKEN = "your-token-here"
 
 # Planning areas
 with open(os.path.join(data_dir, "planning_area.json")) as f:
     planning_areas = json.load(f)['SearchResults']
 
 def get_coordinates_from_postal(postal_code):
+
+    import requests
+
+    # Replace with your OneMap API login credentials
+    email = "e1090510@u.nus.edu"
+    password = "Onemap12345!"
+
+    token_url = "https://www.onemap.gov.sg/api/auth/post/getToken"
+    data = {"email": email, "password": password}
+
+    response = requests.post(token_url, json=data)
+
+    if response.status_code == 200:
+        ONEMAP_TOKEN = response.json().get("access_token")
+        print("Access Token:", ONEMAP_TOKEN)
+    else:
+        print("Failed to get token:", response.status_code, response.text)
+
+
     url = f"https://www.onemap.gov.sg/api/common/elastic/search?searchVal={postal_code}&returnGeom=Y&getAddrDetails=Y&pageNum=1"
     headers = {"Authorization": ONEMAP_TOKEN}
     response = requests.get(url, headers=headers)
