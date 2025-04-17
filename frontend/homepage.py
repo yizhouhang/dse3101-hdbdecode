@@ -37,7 +37,7 @@ def homepage(t):
         st.image("../image/hdb5.jpeg", use_container_width=True)
 
 
-    st.subheader(t["homgepage11"])
+    st.subheader(t["homepage11"])
     st.video("https://www.youtube.com/watch?v=wcmuvZuAzoc")
     st.video("https://www.youtube.com/watch?v=pBSm2NfJKlg")
     st.markdown("---")
