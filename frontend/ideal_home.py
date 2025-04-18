@@ -164,6 +164,7 @@ def ideal_home(t):
         st.title(t["ideal1"])
 
         geospatial_data = pd.read_csv("../data/hdb_geospatial.csv")
+        all_hdbs = pd.read_csv("../data/HDBExistingBuilding_cleaned.csv")
 
         if "postal_codes" not in st.session_state:
             st.session_state.postal_codes = []
@@ -172,7 +173,7 @@ def ideal_home(t):
 
         if st.button(t["ideal3"]):
             if code and code not in st.session_state.postal_codes:
-                if code in geospatial_data["postal_code"].values:
+                if code in all_hdbs["postal_code"].values:
                     st.session_state.postal_codes.append(code)
                     
                 else:
