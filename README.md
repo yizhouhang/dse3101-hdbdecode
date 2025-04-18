@@ -30,6 +30,9 @@ Our web application is designed for:
 - **Frontend**: Streamlit  
 - **Backend**: pandas, numpy, scikit-learn  
 
+## A Quick User Guide and Our Model
+[User Guide](https://i.ytimg.com/an_webp/wcmuvZuAzoc/mqdefault_6s.webp?du=3000&sqp=COjRiMAG&rs=AOn4CLAeeyvEU0O1VG4pNQR-quh6LdMMfg)
+[Technical Explanation](https://www.youtube.com/watch?v=pBSm2NfJKlg)
 Feel free to email hdbdecode@gmail.com or contribute if you'd like to improve or extend the platform!
 
 # Getting Started
