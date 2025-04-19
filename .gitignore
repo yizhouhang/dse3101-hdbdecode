@@ -4,3 +4,4 @@ data/model_random_forest.pkl
 data/resale_price_cleaned.csv
 __pycache__/
 *.py[cod]
+.DS_Store
