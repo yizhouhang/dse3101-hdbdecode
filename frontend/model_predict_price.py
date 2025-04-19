@@ -193,8 +193,8 @@ def predict_price_all(t):
 
     postal_code = st.text_input(t['predict3'])
 
-    geospatial_data = pd.read_csv(os.path.join(data_dir, "hdb_geospatial.csv"))
-    if postal_code and postal_code not in geospatial_data["postal_code"].values:
+    geospatial_data = pd.read_csv(os.path.join(data_dir, "HDBExistingBuilding_cleaned.csv"))
+    if postal_code and postal_code not in geospatial_data["postal_code"].values.astype('str'):
         st.warning(t["predictwarning1"])
         valid_input = False
 
